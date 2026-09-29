@@ -14,7 +14,7 @@ async function checkBackend() {
         statusBox.className = "status online";
     } catch (error) {
         statusBox.textContent =
-            "Backend not connected. Make sure app.py is running on port 5000.";
+            "Backend not connected. Check console (F12) for CORS or Network errors.";
         statusBox.className = "status offline";
     }
 }
