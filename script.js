@@ -1,5 +1,5 @@
 // Replace 'yourusername' with your actual PythonAnywhere username
-const API_URL = "https://yourusername.pythonanywhere.com";
+const API_URL = "https://abdelazizelasri.pythonanywhere.com";
 
 const form = document.getElementById("reportForm");
 const generateBtn = document.getElementById("generateBtn");
